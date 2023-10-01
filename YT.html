@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube.com Clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+<body>
+<div class="header">  
+<div class="left">
+<img src="icons/hamburger-menu.svg" class="hamburger_menu" alt="">
+<img src="icons/youtube-logo.svg"  class="YTlogo" alt="">
+</div>
+<div class="middle">
+<input type="text" placeholder="Search" class="search_bar">
+<button class="search">
+<img src="icons/search.svg" alt="" class="search_icon">
+<div class="tool_tip">Search
+</div>
+</button>
+<button class="voice"">
+<img src="icons/voice-search-icon.svg" alt="" class="voice_icon">
+<div class="tool_tip">
+Search with your voice</div>
+</button>
+</div>
+<div class="right">
+<div class="upload">
+<img src="icons/upload.svg" alt="" class="upload_icon">
+<div class="tool_tip">
+Create</div> 
+</div>
+<!-- <div class="YTapps">
+<img src="icons/notifications.svg" alt="" class="YTapps_icon">
+<div class="tool_tip">
+YouTube apps</div>
+</div> -->
+<div class="notific">
+    <div class="notification_container">
+    <img src="icons/notifications.svg" alt="" class="notifications_icon">
+    <div class="count">9</div>
+    </div>
+    <div class="tool_tip">
+    Notifications</div>
+    </div>
+
+<div class="notific">
+<div class="notification_container">
+    <img src="channel_profiles/channels4_profile.jpg" alt="" class="channel_icon">
+<!-- <div class="count">9</div> -->
+</div>
+<div class="tool_tip">
+Notifications</div>
+</div>
+<!-- <img src="channel_profiles/channels4_profile.jpg" alt="" class="channel_icon"> -->
+</div>
+</div>
+            
+<div class="sidebar">
+<div class="sidebar_link">
+
+<img src="icons/home.svg" alt="">
+<div>Home</div>
+</div>
+<div class="sidebar_link">
+<img src="icons/explore.svg" alt="">
+<div>explore</div>
+</div>
+<div class="sidebar_link">
+<img src="icons/subscriptions.svg" alt="">
+<div>Subscriptions</div>
+</div>
+<div class="sidebar_link">
+<img src="icons/library.svg" alt="">
+<div>Library</div>
+</div>
+<nav>
+    <!-- Your other navigation elements -->
+    <button id="theme-toggle">Dark Mode</button>
+</nav>
+
+<!-- <div class="sidebar_link">
+<img src="icons/moon.png" alt="" class="theme">
+<div>Switch theme</div>
+</div> -->
+<!-- <div class="sidebar_link">
+<img src="icons/library.svg" alt="">
+<div>Library</div>
+</div> -->
+</div>
+<!-- <div class="sidebar_link">
+    <img src="icons/moon.png" alt="">
+    <div>Dark</div>
+    </div> -->
+
+<div class="video_grid">
+                <div class="video_preview">
+                    <a href="https://youtu.be/QNRAV9OQtws?feature=shared">
+                        <div class="thumbnail_row">
+                            <img class="thumbnail"  src="Thumbnails/TN1.jpg" alt="thumbnail-1">
+                            <div class="video_time">1:07</div>
+                        </div>
+                    </a>
+                
+                    <div class="video_info_grid">
+                        <div class="channel_picture">
+                            <img src="Channel_profiles/profile1.jpg" alt=""
+                            class="profile_picture">
+                        </div>
+                        
+                        <div class="video_info">
+                            
+                                <p class="video_title">
+                                
+                                        Interlinked | Memory Reboot
+                                    
+                                    
+                                </p>
+
+                            
+                            
+                            <p class="video_author">
+                        
+                                Logger
+                            </p>
+                            <p class="video_stats">
+                            321k views · 2 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    
+                    <div class="video_preview">
+                    <div class="thumbnail_row">
+                        <a href="https://youtu.be/FSuGx2758Y4?feature=shared">
+                            <img class="thumbnail"  src="Thumbnails/TN2.jpg" alt="thumbnail-2">
+                            <div class="video_time">2:53</div>
+
+                        </a>
+                    
+
+                    </div>
+                    <div class="video_info_grid">
+                    <div class="channel_picture">
+                        <img src="Channel_profiles/profile2.jpg" alt="" class="profile_picture">
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                        METAMORPHOSIS - interworld (Slowed + Reverb) Patrick Bateman edit.
+                        </p>
+                        <p class="video_author">
+                    
+                            FRANXD
+                        </p>
+                        <p class="video_stats">
+                            4.7M views · 8 months ago
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="video_preview">
+                        <div class="thumbnail_row">
+                            <a href="https://youtu.be/srOO1q17A-k?feature=shared">
+                                <img class="thumbnail"  src="Thumbnails/TN3.jpg" alt="thumbnail-2">
+                                <div class="video_time">4:50</div>
+
+                            </a>
+                        
+                        </div>
+                        <div class="video_info_grid">
+                        <div class="channel_picture">
+                            <img src="Channel_profiles/profile3.jpg" alt="" class="profile_picture">
+                        
+
+                        </div>
+                        <div class="video_info">
+                            <p class="video_title">
+                                Shadows - Pastel Ghost x Batman
+                            </p>
+                            <p class="video_author">
+                        
+                                Trenhub
+                            </p>
+                            <p class="video_stats">
+                                542k views · 7 months ago
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+            
+                        <div class="video_preview">
+                            <div class="thumbnail_row">
+                                <a href="https://youtu.be/kh7WQrbNzZM?feature=shared">
+                                    <img class="thumbnail"  src="Thumbnails/TN4.jpg" alt="thumbnail-1">
+                                    <div class="video_time">0:30</div>
+
+                                </a>
+                                
+                            </div>
+                            <div class="video_info_grid">
+                                <div class="channel_picture">
+                                    <img src="Channel_profiles/profile4.jpg" alt=""
+                                    class="profile_picture">
+                                </div>
+                                
+                                <div class="video_info">
+                                    <p class="video_title">
+                                    Debate Club Moment
+                                    </p>
+                                    <p class="video_author">
+                                
+                                        Meme Zee
+                                    </p>
+                                    <p class="video_stats">
+                                    539k views · 1 year ago
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <div class="video_preview">
+                            <div class="thumbnail_row">
+                            <a href="https://youtu.be/NP0lUqNAw3k?feature=shared">
+                                <img class="thumbnail"  src="Thumbnails/TN5.jpg" alt="thumbnail-2">
+                                <div class="video_time">1:43</div>
+                            </a>  
+                            
+
+                            </div>
+                            <div class="video_info_grid">
+                            <div class="channel_picture">
+                                <img src="Channel_profiles/profile5.jpg" alt="" class="profile_picture">
+                                
+                            </div>
+                            <div class="video_info">
+                                <p class="video_title">
+                                    The Man Who Knew Infinity – Official Trailer – Warner Bros. UK
+                                </p>
+                                <p class="video_author">
+                                Warner Bros. UK & Ireland
+                                </p>
+                                <p class="video_stats">
+                                    1.97M views · 7 years ago
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                    
+                            <div class="video_preview">
+                                <div class="thumbnail_row">
+                                <a href="https://youtu.be/QEBCT-Lsh-A?feature=shared">
+                                    <img class="thumbnail"  src="Thumbnails/TN6.jpg" alt="thumbnail-2">
+                                    <div class="video_time">4:16</div>
+
+                                </a>  
+                                
+                                </div>
+                                <div class="video_info_grid">
+                                <div class="channel_picture">
+                                    <img src="Channel_profiles/profile6.jpg" alt="" class="profile_picture">
+                                </div>
+                                <div class="video_info">
+                                    <p class="video_title">
+                                        Batman Becomes the Villain | The Dark Knight | Max
+                                    </p>
+                                    <p class="video_author">
+                                
+                                    Max
+                                    </p>
+                                    <p class="video_stats">
+                                        796k views · 1 year ago
+                                    </p>
+                                    </div>
+                                </div>
+                                </div>
+                
+            
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                <a href="https://youtu.be/DQybFBDdauo?feature=shared">
+                    <img class="thumbnail"  src="Thumbnails/TN7.jpg" alt="thumbnail-2">
+                    <div class="video_time">1:02</div>
+
+                </a>  
+                
+                </div>
+                <div class="video_info_grid">
+                <div class="channel_picture">
+                    <img src="Channel_profiles/profile7.jpg" alt="" class="profile_picture">
+                </div>
+                <div class="video_info">
+                    <p class="video_title">
+                        S3BZS - MONTAGEM - PR FUNK
+                    </p>
+                    <p class="video_author">
+                
+                        S3BZS
+                    </p>
+                    <p class="video_stats">
+                        2.8M views · 2 months ago
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="video_preview">
+                    <div class="thumbnail_row">
+                    <a href="https://youtu.be/1fd7pk1fT8g?feature=shared">
+                        <img class="thumbnail"  src="Thumbnails/TN8.jpg" alt="thumbnail-2">
+                        <div class="video_time">2:59</div>
+        
+                    </a>  
+                    
+                    </div>
+                    <div class="video_info_grid">
+                    <div class="channel_picture">
+                        <img src="Channel_profiles/profile8.jpg" alt="" class="profile_picture">
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            Gigachad theme ( Phonk house version) || Slowed and Reverb
+                        </p>
+                        <p class="video_author">
+                    
+                            Reverb Tushar
+                        </p>
+                        <p class="video_stats">
+                            10M views · 7 months ago
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="video_preview">
+                        <div class="thumbnail_row">
+                        <a href="https://youtu.be/i5zR6toPVQ8?feature=shared">
+                            <img class="thumbnail"  src="Thumbnails/TN9.jpg" alt="thumbnail-2">
+                            <div class="video_time">2:46</div>
+            
+                        </a>  
+                        
+                        </div>
+                        <div class="video_info_grid">
+                        <div class="channel_picture">
+                            <img src="Channel_profiles/profile9.jpg" alt="" class="profile_picture">
+                        </div>
+                        <div class="video_info">
+                            <p class="video_title">
+                                INTERWORLD - RAPTURE (PHONK)
+                            </p>
+                            <p class="video_author">
+                        
+                                The Vibe Guide
+
+                            </p>
+                            <p class="video_stats">
+                                10M views · 5 months ago
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video_preview">
+                        <div class="thumbnail_row">
+                            <a href="https://youtu.be/43TmnIaL3n4?feature=shared">
+                                <img class="thumbnail"  src="Thumbnails/TN10.jpg" alt="thumbnail-2">
+                            <div class="video_time">3:10</div>
+                
+                            </a>  
+                            
+                        </div>
+                        <div class="video_info_grid">
+                        <div class="channel_picture">
+                                <img src="Channel_profiles/profile10.jpg" alt="" class="profile_picture">
+                        </div>
+                        <div class="video_info">
+                                <p class="video_title">
+                                    Elon Musk - I Don't Ever Give Up | Gangsta's Paradise
+                                </p>
+                                <p class="video_author">
+                            
+                                    BlockVestor
+        
+                                </p>
+                                <p class="video_stats">
+                                    34M views · 2 years ago
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video_preview">
+                    <div class="thumbnail_row">
+                        <a href="https://youtu.be/kHK74yFAh0c?feature=shared">
+                            <img class="thumbnail"  src="Thumbnails/TN11.jpg" alt="thumbnail-2">
+                                <div class="video_time">0:50</div>
+                    
+                                </a>  
+                                
+                        </div>
+                    <div class="video_info_grid">
+                        <div class="channel_picture">
+                            <img src="Channel_profiles/profile11.jpg" alt="" class="profile_picture">
+                            </div>
+                        <div class="video_info">
+                            <p class="video_title">
+                                        Quantum physics Edit 🥶
+                            </p>
+                            <p class="video_author">
+                                
+                                        
+                                        Spaceoflex
+            
+                            </p>
+                            <p class="video_stats">
+                                        164K views · 3 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="video_preview">
+                                    <div class="thumbnail_row">
+                                    <a href="https://youtu.be/ewImr3hvl4k?feature=shared">
+                                        <img class="thumbnail"  src="Thumbnails/TN12.jpg" alt="thumbnail-2">
+                                        <div class="video_time">0:18</div>
+                        
+                                    </a>  
+                                    
+                                    </div>
+                                    <div class="video_info_grid">
+                                    <div class="channel_picture">
+                                        <img src="Channel_profiles/profile12.jpg" alt="" class="profile_picture">
+                                    </div>
+                                    <div class="video_info">
+                                        <p class="video_title">
+                                            my honest reaction (4K)
+                                        </p>
+                                        <p class="video_author">
+                                    
+                                            
+                                        
+                                            Twizzion
+                
+                                        </p>
+                                        <p class="video_stats">
+                                            2.1M views · 7 months ago
+                                        </p>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                    <div class="video_preview">
+                                        <div class="thumbnail_row">
+                                        <a href="https://youtu.be/o4oxXrLINMk?feature=shared">
+                                            <img class="thumbnail"  src="Thumbnails/TN13.jpg" alt="thumbnail-2">
+                                            <div class="video_time">0:52</div>
+                            
+                                        </a>  
+                                        
+                                        </div>
+                                        <div class="video_info_grid">
+                                        <div class="channel_picture">
+                                            <img src="Channel_profiles/profile13.jpg" alt="" class="profile_picture">
+                                        </div>
+                                        <div class="video_info">
+                                            <p class="video_title">
+                                                WAKE UP! - MoonDeity (slowed) | Ivan Drago | Edit
+                                            </p>
+                                            <p class="video_author">
+                                            fxrsome
+                    
+                                            </p>
+                                            <p class="video_stats">
+                                                1.6M views · 6 months ago
+                                            </p>
+                                            </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="video_preview">
+                                            <div class="thumbnail_row">
+                                            <a href="https://youtu.be/Hq6I-xPwtU0?feature=shared">
+                                                <img class="thumbnail"  src="Thumbnails/TN14.jpg" alt="thumbnail-2">
+                                                <div class="video_time">2:11</div>
+                                
+                                            </a>  
+                                            
+                                            </div>
+                                            <div class="video_info_grid">
+                                            <div class="channel_picture">
+                                                <img src="Channel_profiles/profile14.jpg" alt="" class="profile_picture">
+                                            </div>
+                                            <div class="video_info">
+                                                <p class="video_title">
+                                                    "literally me"
+                                                </p>
+                                                <p class="video_author">
+                                                    
+                                                    B3AST
+
+                        
+                                                </p>
+                                                <p class="video_stats">
+                                                    4.8M views · 10 months ago
+                                                </p>
+                                                </div>
+                                            </div>
+                                            </div>
+
+
+
+                                            <div class="video_preview">
+                                                <div class="thumbnail_row">
+                                                <a href="https://youtu.be/w4cHu49i10Q?feature=shared">
+                                                    <img class="thumbnail"  src="Thumbnails/TN15.jpg" alt="thumbnail-2">
+                                                    <div class="video_time">
+                                                        0:48
+                                                    </div>
+                                    
+                                                </a>  
+                                                
+                                                </div>
+                                                <div class="video_info_grid">
+                                                <div class="channel_picture">
+                                                    <img src="Channel_profiles/profile15.jpg" alt="" class="profile_picture">
+                                                </div>
+                                                <div class="video_info">
+                                                    <p class="video_title">
+                                                        Men Are Brave × Batman vs Superman [After Dark]
+                                                    </p>
+                                                    <p class="video_author">
+                                                        
+                                                        Skipper Editz
+        
+                            
+                                                    </p>
+                                                    <p class="video_stats">
+                                                        2.3M views · 1 year ago
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                                </div>
+                
+
+    
+
+            </div>
+            <script src="script.js"></script>
+
+
+        </body>
+        </html>
